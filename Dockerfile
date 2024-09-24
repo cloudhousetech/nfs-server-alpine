@@ -1,6 +1,6 @@
-FROM alpine:latest
-LABEL maintainer "Steven Iveson <steve@iveson.eu>"
-LABEL source "https://github.com/sjiveson/nfs-server-alpine"
+FROM alpine:3.20
+LABEL maintainer "Haritha Ramesh <haritha.ramesh@cloudhouse.com>"
+LABEL source "https://github.com/cloudhousetech/nfs-server-alpine"
 LABEL branch "master"
 COPY Dockerfile README.md /
 
